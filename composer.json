@@ -12,5 +12,17 @@
     ],
     "require": {
         "php": "^8.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brnwls\\HeroIcons\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brnwls\\HeroIcons\\Providers\\IconsServiceProvider"
+            ]
+        }
     }
 }
