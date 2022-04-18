@@ -1,0 +1,16 @@
+{
+    "name": "brnwls/laravel-heroicons",
+    "description": "A set of 450+ free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BernhardWilson",
+            "email": "wilson.protected@gmail.com",
+            "homepage": "https://github.com/brnwls"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2"
+    }
+}
