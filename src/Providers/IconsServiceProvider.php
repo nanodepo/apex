@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnwls\HeroIcons\Providers;
+namespace NanoDepo\Heroicons\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -22,8 +22,8 @@ class IconsServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
-        Blade::componentNamespace('Brnwls\\HeroIcons\\Views\\Components', 'icon');
+        Blade::componentNamespace('NanoDepo\\Heroicons\\Views\\Components', 'icon');
     }
 }
