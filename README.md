@@ -1,9 +1,14 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/.github/logo.svg" alt="Heroicons">
+<p align="center" dir="auto">
+  <a href="https://heroicons.com/#gh-light-mode-only" rel="nofollow">
+    <img src="https://github.com/tailwindlabs/heroicons/raw/master/.github/logo-light.svg" alt="Heroicons" width="300" style="max-width: 100%;">
+  </a>
+  <a href="https://heroicons.com/#gh-dark-mode-only" rel="nofollow">
+    <img src="https://github.com/tailwindlabs/heroicons/raw/master/.github/logo-dark.svg" alt="Heroicons" width="300" style="max-width: 100%;">
+  </a>
 </p>
 
 <p align="center">
-  A set of 450+ free MIT-licensed high-quality SVG icons for you to use in your web projects. <br>Available as basic SVG icons and via first-party <a href="https://github.com/brnwls/laravel-heroicons">Laravel</a>, <a href="https://github.com/tailwindlabs/heroicons#react">React</a> and <a href="https://github.com/tailwindlabs/heroicons#vue">Vue</a> libraries.
+  A set of 288*4 free MIT-licensed high-quality SVG icons for you to use in your web projects. <br>Available as basic SVG icons and via first-party <a href="https://github.com/brnwls/laravel-heroicons">Laravel</a>, <a href="https://github.com/tailwindlabs/heroicons#react">React</a> and <a href="https://github.com/tailwindlabs/heroicons#vue">Vue</a> libraries.
 <p>
 
 <p align="center">
@@ -13,22 +18,22 @@
 
 ## Usage
 
-First, install `brnwls/laravel-heroicons` from composer:
+First, install `nanodepo/heroicons` from composer:
 
 ```sh
-composer require brnwls/laravel-heroicons
+composer require nanodepo/heroicons
 ```
 
 Now each icon can be imported individually as a Blade component.
 
 #### Outline
 ```html
-<x-icon::cube class="w-6 h-6" />
+<x-icon::cube />
 ```
 
 #### Solid
 ```html
-<x-icon::cube-solid class="w-5 h-5" />
+<x-icon::cube type="solid" />
 ```
 
 #### Animate
