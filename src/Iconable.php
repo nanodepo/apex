@@ -27,6 +27,7 @@ abstract class Iconable extends Component
                 'viewBox' => '0 0 24 24',
                 'fill' => 'none',
                 'stroke-width' => '1.5',
+                'stroke-linejoin' => 'round',
                 'stroke' => 'currentColor',
                 'class' => 'w-6 h-6',
             ];
