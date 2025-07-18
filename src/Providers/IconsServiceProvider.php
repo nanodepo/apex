@@ -24,6 +24,6 @@ class IconsServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Blade::componentNamespace('NanoDepo\\Heroicons\\Views\\Components', 'icon');
+        Blade::componentNamespace('NanoDepo\\Apex\\Views\\Components', 'icon');
     }
 }
