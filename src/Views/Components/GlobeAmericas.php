@@ -1,8 +1,8 @@
 <?php
 
-namespace NanoDepo\Heroicons\Views\Components;
+namespace NanoDepo\Apex\Views\Components;
 
-use NanoDepo\Heroicons\Iconable;
+use NanoDepo\Apex\Iconable;
 
 class GlobeAmericas extends Iconable
 {

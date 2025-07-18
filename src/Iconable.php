@@ -1,6 +1,6 @@
 <?php
 
-namespace NanoDepo\Heroicons;
+namespace NanoDepo\Apex;
 
 use Closure;
 use Illuminate\View\Component;

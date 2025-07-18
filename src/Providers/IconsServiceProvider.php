@@ -1,6 +1,6 @@
 <?php
 
-namespace NanoDepo\Heroicons\Providers;
+namespace NanoDepo\Apex\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

@@ -1,5 +1,5 @@
 {
-    "name": "nanodepo/heroicons",
+    "name": "nanodepo/apex",
     "description": "A set of 450+ free MIT-licensed high-quality SVG icons for you to use in your web projects.",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NanoDepo\\Heroicons\\": "src"
+            "NanoDepo\\Apex\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NanoDepo\\Heroicons\\Providers\\IconsServiceProvider"
+                "NanoDepo\\Apex\\Providers\\IconsServiceProvider"
             ]
         }
     }
